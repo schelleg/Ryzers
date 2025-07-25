@@ -67,15 +67,16 @@ For detailed build and run instructions, refer to the included documentation.
 
 | Category        | Software                                                                                                    |
 |-----------------|--------------------------------------------------------------------------------------------------------------------|
-| LLM                     | [`ollama`](packages/llm/ollama), [`llamacpp`](packages/llm/llamacpp)   |
-| VLM / VLAM              | [`OpenVLA`](packages/robotics/openvla) |
+| LLM                     | [`ollama`](packages/llm/ollama), [`llamacpp`](packages/llm/llamacpp), $${\color{orange}\small{\texttt{nanoLLM}}}$$, $${\color{orange}\small{\texttt{whisper}}}$$, $${\color{orange}\small{\texttt{phi4}}}$$   |
+| VLM / VLAM              | [`OpenVLA`](packages/robotics/openvla), $${\color{orange}\small{\texttt{nanoOWL}}}$$, $${\color{orange}\small{\texttt{Llava}}}$$, $${\color{orange}\small{\texttt{VILA}}}$$, $${\color{orange}\small{\texttt{PaliGemma}}}$$, $${\color{orange}\small{\texttt{DINOv2}}}$$ |
 | Graphics                     | [`O3DE`](packages/graphics/o3de) |
 | Robotics                | [`ROS 2`](packages/ros/ros), [`Gazebo`](packages/ros/gazebo), [`LeRobot`](packages/robotics/lerobot)    |
-| Simulation                |  [`Genesis`](packages/robotics/genesis)  |
+| Simulation                |  [`Genesis`](packages/robotics/genesis), $${\color{orange}\small{\texttt{Mujoco}}}$$  |
 | Vision                  | [`OpenCV`](packages/vision/opencv), [`SAM`](packages/vision/sam), [`MobileSAM`](packages/vision/mobilesam) |
 | Ryzen AI NPU                |  $${\color{red}\small{\texttt{IRON}}}$$, $${\color{red}\small{\texttt{NPUEval}}}$$  |
 | Adaptive SoCs           | $${\color{red}\small{\texttt{PYNQ.remote}}}$$ |
 | IDEs   | [`JupyterLab`](packages/ide/jupyterlab) |
+| Orchestration   | $${\color{orange}\small{\texttt{Flower}}}$$ |
 
 Packages Legend: 
 $${\color{red}\small{\texttt{Coming Soon}}}$$, 
