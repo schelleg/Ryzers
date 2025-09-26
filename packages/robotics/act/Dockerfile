@@ -11,7 +11,9 @@ RUN apt-get update && apt-get install -y git \
 	vim \
 	wget \
 	libegl1-mesa \
-	libgles2-mesa
+	libgles2-mesa \
+	mesa-utils \
+	mesa-vulkan-drivers
 
 RUN git clone https://github.com/tonyzhaozh/act
 
