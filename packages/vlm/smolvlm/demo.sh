@@ -4,4 +4,4 @@
 # SPDX-License-Identifier: MIT
 
 export PATH=/ryzers/llamacpp/build/bin/:$PATH
-llama-server -hf ggml-org/SmolVLM-500M-Instruct-GGUF
+llama-server --port 8081 -hf ggml-org/SmolVLM-500M-Instruct-GGUF 
