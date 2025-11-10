@@ -148,7 +148,12 @@
         // 1. Ask for camera permission on load
         async function initCamera() {
             try {
-                stream = await navigator.mediaDevices.getUserMedia({ video: true, audio: false });
+                stream = await navigator.mediaDevices.getUserMedia({ video: {
+                    width: { ideal: 640 },
+                    height: { ideal: 480 },
+                    frameRate: { exact: 10 }
+                }, audio: false });
+
                 video.srcObject = stream;
                 responseText.value = "Camera access granted. Ready to start.";
             } catch (err) {
