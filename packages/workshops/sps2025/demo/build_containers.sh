@@ -4,7 +4,7 @@
 if [[ -z "$SPSDEMO_VENV" || -z "$SPSDEMO_PATH" ]]; then
     echo "Error: SPSDEMO_VENV and SPSDEMO_PATH must be set."
     exit 1
-    
+fi    
 
 source $SPSDEMO_VENV/bin/activate
 
