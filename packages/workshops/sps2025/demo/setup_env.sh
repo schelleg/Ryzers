@@ -7,6 +7,10 @@ if [[ -z "$SPSDEMO_VENV" || -z "$SPSDEMO_PATH" ]]; then
     exit 1
 fi
 
+source $SPSDEMO_VENV/bin/activate
+
+pip install --upgrade $SPSDEMO_PATH/Ryzers/
+
 # Setup xdna driver (only needed one time)
 # For NPU to work secure boot needs to be disabled in BIOS
 pushd $SPSDEMO_PATH
