@@ -19,7 +19,7 @@ git clone https://github.com/schelleg/Ryzers -b spsdemo
 pushd Ryzers/packages/workshops/sps2025/demo
 ./setup_env.sh          # only needed run one time
 ./build_containers.sh   # only needed run one time
-./run_demos.sh
+./start_demos.sh
 
 ```
 
