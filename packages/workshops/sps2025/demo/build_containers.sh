@@ -8,7 +8,7 @@ fi
 
 source $SPSDEMO_VENV/bin/activate
 
-pushd $SPSDEMO_PATH/Ryzers/packages/workshops/sps2025/demo
+pushd $SPSDEMO_PATH
 ryzers build genesis --name genesis
 ryzers build llamacpp smolvlm --name smolvlm
 ryzers build xdna ryzenai_cvml ros --name cvml
